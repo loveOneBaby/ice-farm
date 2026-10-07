@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.build/
+test-results/
+tests/render-r14-*.png
+*.log
+.DS_Store
+.env
+.env.*

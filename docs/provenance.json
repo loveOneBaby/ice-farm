@@ -1,0 +1,9 @@
+{
+  "revision": 14,
+  "originalFilename": "ice-pixel-farm-r14-cartographer.html",
+  "originalBytes": 45759969,
+  "originalSha256": "1b5ba789e49976f5a41d392c5a4206f50fd47c27479a43a1a250e79ad76fad2f",
+  "runtimeAssets": 167,
+  "migration": "Split inline scripts, CSS, font and images into portable source files. Gameplay code unchanged. Page title corrected to R14.",
+  "browserVerification": "Pending hosted browser QA"
+}

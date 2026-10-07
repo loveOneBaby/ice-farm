@@ -1,0 +1,15 @@
+{
+  "name": "ice-farm",
+  "version": "14.0.0",
+  "private": true,
+  "description": "Standalone Ice Homestead farm game with a reproducible GitHub Pages preview build",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node tests/test_farm_r14.cjs && node tests/test_interruptions_r14.cjs && node tests/test_package.cjs",
+    "preview": "node scripts/serve.mjs",
+    "render": "npm run build && node tests/render_r14.cjs"
+  },
+  "devDependencies": { "@napi-rs/canvas": "0.1.100" }
+}
